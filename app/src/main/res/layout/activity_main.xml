@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nutit.myapplication.MainActivity">
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPageAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="$400"
+            />
+        <TextView
+            android:id="@+id/txt_old"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="$900"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="10/S"
+        />
+
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:paddingTop="8dp"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/img_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_toLeftOf="@+id/img_want"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@android:drawable/star_on" />
+    <Button
+        android:id="@+id/img_want"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Want It"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_marginRight="10dp"
+        android:textSize="22dp"
+        android:layout_alignParentRight="true"
+        android:background="#8a378e" />
+</RelativeLayout>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="1dp"
+        android:background="#cecece"/>
+
+    <RelativeLayout
+        android:id="@+id/buying"
+        android:layout_width="match_parent"
+        android:paddingTop="8dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:paddingLeft="20dp"
+            android:background="#ffffff"
+            android:id="@+id/btn_buy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Buying on 99closets is safe!"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"
+            android:textColor="#4e85c0"
+            />
+        <Button
+            android:background="#ffffff"
+            android:id="@+id/btnclick"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:gravity="right|center_vertical"
+            android:textColor="#4e85c0"
+            android:layout_alignParentRight="true"
+             />
+
+</RelativeLayout>
+
+    <TextView
+        android:textSize="22sp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DESCRIPTION"
+        android:background="#f2f2f2"
+        android:layout_gravity="left|center_vertical"
+        android:paddingTop="15dp"
+        />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jovani formal dress"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selling my beautiful formal dress that I totally adore. Breaking my heart to have to sell it but I have no room to continue storing it."
+                android:textSize="18sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:layout_marginLeft="20dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Brand"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical"
+
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Jovani"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="DETAILS"
+                android:textSize="20sp"
+                android:background="#f2f2f2"
+                android:layout_gravity="left|center_vertical"
+                android:paddingTop="15dp"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Shipping Price"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical"
+
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="$60"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Condition"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical"
+
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Verry Good"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Added"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical"
+
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="14/09/15 16:40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:id="@+id/btn_color"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Like"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="#b8b2b2"
+                    android:gravity="left|center_vertical"
+                    />
+                <Button
+                    android:background="#ffffff"
+                    android:id="@+id/btn_brown"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:background="#ffffff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="Color"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical"
+
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Brown"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SELLER INFO"
+                android:textSize="20sp"
+                android:background="#f2f2f2"
+                android:layout_gravity="left|center_vertical"
+                android:paddingTop="15dp"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                  <Button
+                      android:paddingLeft="20dp"
+                      android:background="#ffffff"
+                      android:id="@+id/btn_rate"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Shelbyykayy\r\n★★★★★"
+                      android:textSize="18sp"
+                      android:textAllCaps="false"
+                      android:textColor="#b8b2b2"
+                      android:gravity="top|center_vertical"
+                      />
+
+
+                <Button
+                    android:background="#ffffff"
+                    android:id="@+id/btn_rate1"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#b8b2b2"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_alignParentRight="true"
+                    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#f2f2f2"
+    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
